@@ -14,13 +14,14 @@
 }
 .colors__container {
   display: flex;
+  align-items: center;
   margin: 10px 0;
   gap: 5px;
 }
 .color {
-  height: 13px;
-  width: 13px;
-  border: none;
+  height: 15px;
+  width: 15px;
+  border: 0.1px solid gray;
   border-radius: 50%;
 }
 

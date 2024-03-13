@@ -1,0 +1,48 @@
+.cells__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.inptfield-parent {
+  border: 1px solid black;
+}
+.inputfield__cell {
+  background-color: transparent;
+  padding: 2px 5px;
+  border: none;
+  outline: none;
+  width: 95%;
+}
+.colors__container {
+  display: flex;
+  margin: 10px 0;
+  gap: 5px;
+}
+.color {
+  height: 13px;
+  width: 13px;
+  border: none;
+  border-radius: 50%;
+}
+
+.text-styles {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 0 10px 0;
+}
+
+@media (min-width: 640px) {
+  .cells__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .cells__grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (min-width: 1536px) {
+  .cells__grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
